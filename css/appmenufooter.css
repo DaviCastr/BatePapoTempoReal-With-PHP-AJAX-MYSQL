@@ -1,0 +1,151 @@
+/*@font-face{
+  font-family:"inversionz";
+  src:url(Inversionz.ttf); 
+}*/
+div#AmigosPanel{
+  background-color:#000;
+  border-radius: 5px;
+  border:solid 3px #ffd800;
+} 
+img.imgamigo{
+  border-radius:50px;
+}
+span.balaoAm{
+  border-radius: 50px;
+  background-color: #ccc;
+  height: 100%;
+  padding-right: 10px;
+}
+h3.textoamigo{
+  color: white;
+}
+div#quadroVAmigo{
+  overflow: auto;
+}
+footer{
+  background:#000;
+  color:white;
+  border:solid;
+  border-color:#ffd800;
+  border-radius:5px;
+  border-width:3px;
+  font-family: monospace;
+}
+footer ul{
+  list-style:none;
+}
+footer ul li {
+  font-size: 22px;
+}
+div.copyright{
+  color: white;
+  background-color: black;
+  margin-bottom:0px;
+  padding: 10px;
+  text-align: right;
+}
+#contFooter{
+    padding-top:15px;
+}
+#divNlogo{
+    border-right:solid #fff800;
+}
+#divNlogo #Nlogo{
+  font-size: 27px;
+  color:white;
+  font-family:sans-serif;
+}
+#nlogo2{
+  font-size:100%;
+  color:white;
+  font-family:sans-serif; 
+}
+div#menu2 ul li{
+  font-family: sans-serif;
+  font-size: 27px;
+  color:white;
+  margin-left:30px;
+  margin-bottom:10px;
+}
+div#menu2 ul li a{
+  color:white; 
+  padding-bottom:10px; 
+}
+div#menu2 ul li a.ativo{
+  color:white; 
+  border-bottom:solid; 
+  border-radius:5px;
+  border-color:#fff;
+  border-width:1px;
+}
+div#menu2 ul li a:hover{
+  display: inline-flex;
+  padding-bottom: 10px; 
+  z-index: 999;
+  background-color:#000;
+  border-bottom:solid;
+  color:white; 
+  border-radius:5px;
+  border-color:#ffd800;
+  border-width:1px;
+  height:100%; 
+  
+}
+div#menu2{
+  background:#000;
+  color:white;
+  border-left:solid;
+  border-right:solid;
+  border-bottom:none;
+  border-top:none; 
+  border-radius:5px;
+  border-width:3px;
+  border-color:#ffd800;
+  width: 100%;
+  height:20%;  
+}
+div#mainNavigation ul li{
+  font-family: monospace;
+  font-size: 25px;
+  color:white;
+  margin-left:30px;
+  margin-bottom:10px;
+}
+div#mainNavigation ul li a{
+  color:white; 
+  padding-bottom:10px; 
+}
+div#mainNavigation ul li a.ativo{
+  color:white; 
+  border-bottom:solid; 
+  border-radius:5px;
+  border-color:#fff;
+  border-width:1px;
+}
+div#mainNavigation ul li a:hover{
+  display: inline-flex;
+  padding-bottom: 10px; 
+  z-index: 999;
+  background-color:#000;
+  border-bottom:solid;
+  color:white; 
+  border-radius:5px;
+  border-color:#ffd800;
+  border-width:1px;
+  height:100%; 
+  
+}
+div#mainNavigation{
+  background:#000;
+  color:white;
+  border:solid; 
+  border-radius:5px;
+  border-width:3px;
+  border-color:#ffd800;
+  width: 100%;
+  height:20%;  
+  padding: 0;
+}
+div#mainNavigation ul{
+  background-color: #000;
+}

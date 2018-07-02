@@ -1,0 +1,24 @@
+img.perfil{
+	border-radius:50px;
+}
+span.balapP{
+	border-radius: 50px;
+	background-color: white;
+	height: 100%;
+	padding-right: 10px;
+}
+span.balapP a{
+	color: black;
+}
+span.centro{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50px;
+	background-color: white;
+	height: 100%;
+	padding-right: 10px;
+}
+span.centro cite{
+	color:black; 
+}

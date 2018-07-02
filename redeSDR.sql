@@ -1,0 +1,39 @@
+CREATE DATABASE apptalk;
+use apptalk;
+CREATE TABLE usuarios( 
+	id INT AUTO_INCREMENT NOT NULL, 
+	nome VARCHAR(20) NOT NULL,
+	perfil LONGBLOB NOT NULL,
+	email VARCHAR(50) NOT NULL,
+	genero VARCHAR(20) NOT NULL,
+	telefone VARCHAR(20) NOT NULL,
+	senha VARCHAR(50) NOT NULL,
+	nacionalidade VARCHAR(20) NOT NULL,
+	PRIMARY KEY(id)
+);
+CREATE TABLE amigos(
+	id INT AUTO_INCREMENT,
+	idUser INT NOT NULL,
+	idAm INT NOT NULL,
+	FOREIGN KEY(idUser) REFERENCES usuarios(id),
+	FOREIGN KEY(idAm) REFERENCES usuarios(id),
+	PRIMARY KEY(id)
+);
+CREATE TABLE batepapo(
+	id INT AUTO_INCREMENT,
+	idEnv INT NOT NULL,
+	idRec INT NOT NULL,
+	mensagem LONGTEXT NOT NULL,
+	hora TIME NOT NULL,
+	data DATE NOT NULL,
+	FOREIGN KEY(idEnv) REFERENCES usuarios(id),
+	FOREIGN KEY(idRec) REFERENCES usuarios(id),
+	PRIMARY KEY(id)
+);
+CREATE TABLE notificacoes(
+	id INT AUTO_INCREMENT,
+	titulo VARCHAR(50) NOT NULL,
+	comando LONGTEXT ,
+	idUser INT NOT NULL,
+	PRIMARY KEY(id)
+);

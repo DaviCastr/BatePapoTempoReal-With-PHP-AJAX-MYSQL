@@ -1,0 +1,138 @@
+body{
+  background-image: url("../img/fundo.jpg");
+  background-size: 25%; 
+  background-attachment:fixed; 
+}
+#mensagem{
+  color:black;
+}
+#batepapo{
+  height: 350px;
+  position: relative;
+  margin-bottom: 1%;
+  background-color: #123;
+  background-size: 100%;
+  background-position: 10px -130px;
+  border: solid #ccc;
+  border-radius: 5px;
+  overflow-y: scroll;
+  overflow-x: ;
+  box-sizing: border-box;  
+  width: 100%;
+}
+h1#titulo{
+  font-family: "fontelogo";
+  text-align: center;
+  font-size: 25px;
+  color:white;
+}
+form input{
+  color: black;
+}
+div#divform{
+    background-color:#000;
+    padding: 10px;
+    width:auto;
+    margin-bottom: 2%;
+    border:solid #ffd800;
+    border-radius:8px;
+}
+span.usuario{
+	color: black;
+	text-decoration:none;
+	font-family:sans-serif;
+	text-align:right; 
+	padding-left: 5%;
+
+}
+span.remetente{
+	color:black;
+	text-decoration:bold;
+	text-align: right;
+	padding-right: 15px;
+}
+p.mensagemU{
+	margin-top: 1px;
+	color:black;
+  padding-bottom:0px;
+  margin-bottom: 0px; 
+	/*text-align: justify;*/
+	font-size: 15px;
+	font-family: sans-serif;
+	padding-left:4%;
+}
+#balaoU{
+  margin-top:5px;
+  height:auto;
+  background-color:#ffd800;
+  border:solid 2px transparent;
+  border-bottom-right-radius: 20px;
+  border-radius: 5px 5px 5px 15px;
+	width:auto;
+	max-width: 85%;
+	padding-right:10px; 
+}
+#balaoU:before{
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  border-left: 0px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 25px solid #ffd800;        
+  left: 91%;
+}
+span.hora{
+  display: block;
+  margin-top: 8px;
+  margin-bottom:auto;
+  object-position: bottom;
+  font-size:8px;
+  color: #023;
+}
+#balaoR{
+	height: auto;
+	text-align: justify;
+	margin-top:5px;
+	background-color:#fff;
+	border:solid 2px transparent;
+	border-radius: 5px 5px 15px 5px;
+	width:auto;
+	max-width: 85%;
+	padding-left:10px; 
+}
+#balaoR:before{
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  border-left: 15px solid transparent;
+  border-right: 0px solid transparent;
+  border-top: 25px solid #fff;        
+  left: 3%;
+}
+div#divlogo{
+  position:relative;
+}
+img#imglogopc{
+  margin: 0;
+  position: relative;
+  top:50%;
+  left:50%;
+  margin-right: -50%;
+  transform: translate(-50%,-50%);
+  border-radius: 50%;
+  width: 80%;
+}
+p.mensagemR{
+	margin-top: 1px;
+	color:black;
+  padding-bottom:0px;
+  margin-bottom: 0px; 
+	font-size: 15px;
+/*	text-align: justify;*/
+	font-family:  sans-serif;
+	text-align: justify;
+	padding-right:4%;
+}
+

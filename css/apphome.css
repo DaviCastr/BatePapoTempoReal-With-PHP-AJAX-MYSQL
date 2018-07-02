@@ -1,0 +1,63 @@
+@font-face{
+  font-family:"fontelogo";
+  src:url(Inversionz.ttf); 
+}
+body{
+  background-image: url("../img/fundo.jpg");
+  background-size: 25%; 
+  background-attachment:fixed; 
+}
+
+/*#enviar{
+    background-color:#7F65C9;
+    margin-left:24%;
+    width:50%;
+    height:30px;
+    color:white;
+    border-radius:5px;
+    border-style:solid;
+    border-color:black;   
+    font-size:20px;
+    font-family:"fantasy";
+}*/
+/*div#batepapodiv{
+         width: 100%;
+         height: ;
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+         align-items: center;
+}*/
+div#divlogo{
+  position:relative;
+}
+h5.sloga{
+  
+  position: relative;
+  text-decoration: underline;
+  text-align: center;
+  transform: translate(-50%,-50%);
+  color: white;
+}
+div#divsloga{
+  position: relative;
+  top:25%;
+  left:50%;
+}
+div#divslogaMobile{
+  position: relative;
+  margin-top: 50px;
+  padding-bottom: 30px;
+  top:5%;
+  left:50%; 
+}
+img#imglogopc{
+  margin: 0;
+  position: relative;
+  top:50%;
+  left:50%;
+  margin-right: -50%;
+  transform: translate(-50%,-50%);
+  border-radius: 50%;
+  width: 80%;
+}
